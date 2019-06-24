@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "023b0522-a49d-4f2e-b3ba-76e177440cf2",
+		"name": "consultasSp2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/Parcial2/Parte2/",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjEwODI4OTksImV4cCI6MTU2MTA4MzA4OSwiZGF0YSI6eyJlbWFpbCI6IjgiLCJjbGF2ZSI6IjgifSwiYXBwIjoiQVBJIFJFU1QgUEFSQSBDT01BTkRBIDIwMTgifQ.Vy46uPRvW1He8yTgDVn8ocAql5-xxoioqMzj56fX4pE",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "7",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Parcial2/Parte2/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Parcial2",
+						"Parte2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Parcial2/Parte2/login/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjEwODI3MzksImV4cCI6MTU2MTA4MjkyOSwiZGF0YSI6eyJlbWFpbCI6IjExIiwiY2xhdmUiOiIxMSJ9LCJhcHAiOiJBUEkgUkVTVCBQQVJBIENPTUFOREEgMjAxOCJ9.f90EWPoeLjKx8GiXN1rbvC5Mc7XrTurIq-aK8XQiggw\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Parcial2/Parte2/login/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjEwODI3MzksImV4cCI6MTU2MTA4MjkyOSwiZGF0YSI6eyJlbWFpbCI6IjExIiwiY2xhdmUiOiIxMSJ9LCJhcHAiOiJBUEkgUkVTVCBQQVJBIENPTUFOREEgMjAxOCJ9.f90EWPoeLjKx8GiXN1rbvC5Mc7XrTurIq-aK8XQiggw",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Parcial2",
+						"Parte2",
+						"login",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjEwODI3MzksImV4cCI6MTU2MTA4MjkyOSwiZGF0YSI6eyJlbWFpbCI6IjExIiwiY2xhdmUiOiIxMSJ9LCJhcHAiOiJBUEkgUkVTVCBQQVJBIENPTUFOREEgMjAxOCJ9.f90EWPoeLjKx8GiXN1rbvC5Mc7XrTurIq-aK8XQiggw\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Parcial2/Parte2/login/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Parcial2/Parte2/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Parcial2",
+						"Parte2",
+						"login",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Parcial2/Parte2/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Parcial2/Parte2/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Parcial2",
+						"Parte2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Parcial2/Parte2/medias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Parcial2/Parte2/medias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Parcial2",
+						"Parte2",
+						"medias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Parcial2/Parte2/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "media",
+							"value": "{\"color\":\"azul\",\"marca\":\"adidas\",\"precio\":122,\"talle\":\"s\"}",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "123",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Parcial2/Parte2/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Parcial2",
+						"Parte2",
+						""
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
